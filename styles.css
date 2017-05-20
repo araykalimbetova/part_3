@@ -98,6 +98,7 @@ img{
 }
 .header-top{
 	padding:30px 0;
+	border-bottom:1px solid #eee;
 }
 	.logo{
 		font-size:1.375em;
@@ -134,3 +135,37 @@ img{
 			.header-basket a:hover{
 				color:#f45a40;
 			}
+.header-bottom{
+	padding:10px 0;
+}
+	.menu{
+		float:left;
+	}
+		.menu li{
+			float:left;
+			text-transform:uppercase;
+			margin-right:30px;
+			font-size:0.875em;
+		}
+			.menu li a{
+				color:#7e7f84;
+				text-decoration:none;
+			}
+			.menu li a:hover{
+				color:#f45a40;
+			}
+	.search-block{
+		float:left;
+		margin-top:-3px;
+	}
+		.search-btn{
+			float:left;
+			margin:5px 5px 0 0;
+		}
+		.search{
+			float:left;
+			font-size:0.875em;
+			color:#7e7f84;
+			border:none;
+			line-height:1.4;
+		}

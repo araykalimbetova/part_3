@@ -4,9 +4,9 @@
 	<meta charset="utf-8"> 
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="styles.css" />
-	<link rel="stylesheet" href="part_3/unslider.css">
-	<link rel="stylesheet" href="part_3/unslider-dots.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="css/unslider.css"/>
+	<link rel="stylesheet" href="css/unslider-dots.css"/>
 	<title>Company name - home page</title>
 </head>
 <body>
@@ -16,7 +16,7 @@
 				<p class="logo">BIRUANG</p>
 				<div class="contact-basket">
 					<p class="header-phone">
-						<img src="images/ico-phone.jpg" alt=""/>+371 282 20 760
+						<img src="images/ico-phone.jpg" alt=""/> +371 282 20 760
 					</p>
 					<p class="header-basket">
 						<img src="images/ico-basket.jpg" alt=""/> $ 99.54
@@ -45,20 +45,35 @@
 			</div>
 		</div>
 	</header>
-	<div class="my-slider">
-	<ul>
-		<li>My slide</li>
-		<li>Another slide</li>
-		<li>My last slide</li>
-	</ul>
-</div>
+	<div class="my-slider center-block-main">
+		<ul>
+			<li>
+				<h2>RIGHT IS PINK. <br>LEFT IS BLUE</h2>
+				<p>Inspired by Brasil’s bold colors and matching up to football’s on-pitch<br> playmakers, these kicks are ready to stand out</p>
+				<img src="images/slide1.jpg" alt="" />
+			</li>
+			<li>
+				<h2>RIGHT IS PINK. <br>LEFT IS BLUE</h2>
+				<p>Inspired by Brasil’s bold colors and matching up to football’s on-pitch<br> playmakers, these kicks are ready to stand out</p>
+				<img src="images/slide1.jpg" alt="" />
+			</li>
+			<li>
+				<h2>RIGHT IS PINK. <br>LEFT IS BLUE</h2>
+				<p>Inspired by Brasil’s bold colors and matching up to football’s on-pitch<br> playmakers, these kicks are ready to stand out</p>
+				<img src="images/slide1.jpg" alt="" />
+			</li>
+		</ul>
+	</div>
 
 
-<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
-	<script src="/path/to/unslider.js"></script> 
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="js/unslider-min.js"></script> 
 	<script>
 		jQuery(document).ready(function($) {
-			$('.my-slider').unslider();
+			$('.my-slider').unslider({
+			autoplay:true,
+			arrows:false
+			});
 		});
 	</script>
 </body>

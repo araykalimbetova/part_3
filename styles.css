@@ -116,27 +116,27 @@ img{
 		}
 			.contact-basket p img{
 				vertical-align:middle;
-				margin-right:3px;
+				margin-right:7px;
 			}
 		.header-phone{
-		padding-top:8px;	
+		padding-top:10px;	
 		}
 		.header-basket{
 			border:1px solid #eee;
-			padding:7px 25px;
-			margin-left:20px;
+			padding:10px 25px;
+			margin-left:25px;
 		}	
 			.header-basket a{
 				text-transform:uppercase;
 				color:#7e7f84;
 				text-decoration:none;
-				margin-left:20px;
+				margin-left:35px;
 			}
 			.header-basket a:hover{
 				color:#f45a40;
 			}
 .header-bottom{
-	padding:10px 0;
+	padding:15px 0;
 }
 	.menu{
 		float:left;
@@ -144,7 +144,7 @@ img{
 		.menu li{
 			float:left;
 			text-transform:uppercase;
-			margin-right:30px;
+			margin-right:35px;
 			font-size:0.875em;
 		}
 			.menu li a{
@@ -160,7 +160,7 @@ img{
 	}
 		.search-btn{
 			float:left;
-			margin:5px 5px 0 0;
+			margin:4px 5px 0 0;
 		}
 		.search{
 			float:left;
@@ -169,3 +169,27 @@ img{
 			border:none;
 			line-height:1.4;
 		}
+.my-slider ul li{
+	position:relative;
+	color:#f45a40;
+}
+	.my-slider ul li h2{
+		position:absolute;
+		top:210px;
+		left:35px;
+		font-size:3.70625em;
+		font-weight:600;
+		line-height:1.1;
+	}
+	.my-slider ul li p{
+		position:absolute;
+		top:345px;
+		left:35px;
+		font-size:0.875em;
+	}
+	.unslider-nav{
+		max-width:1170px;
+		margin:0 auto;
+		position:relative;
+		top:-50px;
+	}

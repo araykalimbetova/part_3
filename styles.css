@@ -193,3 +193,25 @@ img{
 		position:relative;
 		top:-50px;
 	}
+.block3-main{
+}
+	.block3-main article{
+		width:31.6%;
+		float:left;
+		margin-left:2.6%;
+	}
+	.block3-main article:first-child{
+		margin-left:0;
+	}
+		.block3-main article img{
+			display:block;
+			margin:0 auto 20px 0;
+		}
+		.block3-main article h2{
+			font-family: 'Roboto Condensed', sans-serif;
+			margin-bottom:20px;
+			font-size:1.375em;
+		}
+		.block3main p{
+		font-size:0.875em;
+	}

@@ -280,3 +280,38 @@ img{
 				.btn{
 					float:right;
 				}
+.about{
+	margin-bottom:60px;
+}
+	.about article{
+		float:left;
+		width:60%;
+	}
+		.about article h2{
+			font-size:1.325em;
+			font-weight:600;
+			color:#67686d;
+			margin-bottom:30px;
+		}
+		.about article p{
+			font-size:0.875em;
+			margin-bottom:25px;
+			font-style:italic;
+		}
+	.about .map{
+		float:right;
+		width:35%;
+	}
+	.mapin{
+		position:relative;
+		padding-bottom:75%;
+		height:0;
+		overflow:hidden;
+	}
+	.mapin iframe{
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;  
+	}

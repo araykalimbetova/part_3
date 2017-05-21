@@ -194,6 +194,7 @@ img{
 		top:-50px;
 	}
 .block3-main{
+	margin-bottom:50px;
 }
 	.block3-main article{
 		width:31.6%;
@@ -215,3 +216,67 @@ img{
 		.block3main p{
 		font-size:0.875em;
 	}
+.block4-main {
+	margin-bottom:60px;
+}
+	.block4-main>h2 {
+		text-align:center;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-weight:600;
+		font-size:1.415625em;
+		color:#67686d;
+		padding-bottom:40px;
+	}
+	.section{
+		width:100%;
+	}
+		.section article{
+			width:23%;
+			float:left;
+			margin-left:2.66666666666667%;
+		}
+		.section article:first-child{
+			margin:0;
+		}
+		.section article img{
+			margin:0 auto;
+			display:block;
+		}
+		.section article h2{
+			font-size:1.125em;
+			font-family: 'Roboto Condensed', sans-serif;
+			color:#74757a;
+			padding-bottom:5px;
+			font-weight:600;
+			text-transform:uppercase;
+		}
+		.block4{
+			border:1px solid #eee;
+			border-top:0;
+			padding:20px 20px 0 20px;
+		}
+		.section article h3{
+			font-size:0.875em;
+			color:#67686d;
+			text-transform:uppercase;
+			font-style:italic;
+			margin-bottom:10px;			
+		}
+		.block4 p{
+			font-size:0.625em;
+			margin-bottom:15px;
+		}
+			p.basket{
+			border-top:1px solid #eee;
+			font-size:0.875em;
+			color:#f45a40;
+			padding:15px 0;
+			margin-bottom:0;
+			font-weight:600;
+			}			
+				.price{
+					float:left;
+				}
+				.btn{
+					float:right;
+				}

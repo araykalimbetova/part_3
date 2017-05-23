@@ -509,3 +509,37 @@ img{
 		margin:0 2.5% 30px 2.5%;
 	}
 }
+@media screen and (max-width:500px){
+	.my-slider ul li h2{
+		top:50px;
+		font-size:1.275em;
+}
+	.my-slider ul li p{
+		top:100px;
+}
+	.section article{
+		float:none;
+		width:95%;
+		margin:0  2.5% 30px 2.5%;
+		overflow:hidden;
+}
+	.section article:first-child{
+		width:95%;
+		float:none;
+		margin: 0 2.5% 30px 2.5%;
+		overflow:hidden;
+	}
+	
+	.ftr2 article{
+		width:95%;
+		float:none;
+		margin: 0 2.5% 30px 2.5%;
+		overflow:hidden;
+	}
+	.ftr2 article:first-child{
+		width:95%;
+		float:none;
+		margin: 0 2.5% 30px 2.5%;
+		overflow:hidden;
+	}
+}

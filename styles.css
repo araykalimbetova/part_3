@@ -206,7 +206,7 @@ img{
 	}
 		.block3-main article img{
 			display:block;
-			margin:0 auto 20px 0;
+			margin:0 auto 20px auto;
 		}
 		.block3-main article h2{
 			font-family: 'Roboto Condensed', sans-serif;
@@ -488,4 +488,24 @@ img{
 		float:right;
 	}
 }
-
+@media screen and (max-width:635px){
+.block3-main article{
+		width:100%;
+		float:none;
+		margin:0 2.5% 30px 2.5%;
+	}
+	
+	.block3-main article:first-child{
+		margin:0 2.5% 30px 2.5%;
+	}
+	.about article{
+		float:none;
+		width:95%;
+		margin:0 2.5% 30px 2.5%;
+	}
+	.about .map{
+		float:none;
+		width:95%;
+		margin:0 2.5% 30px 2.5%;
+	}
+}

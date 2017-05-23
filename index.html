@@ -4,7 +4,7 @@
 	<meta charset="utf-8"> 
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="styles.css" />
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/unslider.css"/>
 	<link rel="stylesheet" href="css/unslider-dots.css"/>
 	<title>Company name - home page</title>
@@ -288,5 +288,16 @@
 			
 			$(document).ready(function() { setEqualHeight($(".block4")); });
 	</script>
+	<script>
+	function setEqualHeight(columns) { 
+		var tallestcolumn = 0; 
+		columns.each( function() { 
+			currentHeight = $(this).height(); 
+			if(currentHeight > tallestcolumn) { tallestcolumn = currentHeight; } } ); 
+			columns.height(tallestcolumn); 
+		} 
+		
+		$(document).ready(function() { setEqualHeight($(".section")); });
+</script>
 </body>
 </html>
